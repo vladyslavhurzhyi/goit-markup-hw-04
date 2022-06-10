@@ -510,8 +510,14 @@ ul {
 
 
 
+
+
 .about-icon-svg {
     fill: #AFB1B8;
+}
+
+.footer-svg {
+    fill: #fff;
 }
 
 /* ______________________________CLIENTS________________________ */
