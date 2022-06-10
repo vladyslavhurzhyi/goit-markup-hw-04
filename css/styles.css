@@ -303,45 +303,27 @@ ul {
 .about-us {
 
     display: flex;
-
-        
 }
-
-
 
 
 .item-about:not(:last-child) {
-    padding-right: 30px;
-}
-
-
-.item-about::before {
-    display: block;
-    content: "";
-    height: 120px;
-    background: #F5F4FA;
+    margin-right: 30px;
    
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-}
-
-.icon-antena::before {
-    background-image: url(../images/antena.svg);
 }
 
 
-.icon-clock::before {
-    background-image: url(../images/clock.svg);
+
+.about-us-div {
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
 }
 
-.icon-diagram::before {
-    background-image: url(../images/diagram.svg);
-}
-
-
-.icon-astronaut::before {
-    background-image: url(../images/astronaut.svg);
+.us-icon-svg {
+    height: 120px;
 }
 
 .benefits-title {
@@ -353,6 +335,8 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-color);
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .benefits-text {
@@ -361,6 +345,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin: 0;
 }
 
 .about-title {
